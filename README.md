@@ -1,2 +1,17 @@
-# APIs
-In this project, I make a fetch request to a URL and parse the response as JSON. I then make a fetch request to one of the two URLs and use A/B testing to randomly select which response will be parsed to the script
+# 👷 `worker-template` Hello World
+
+A template for kick starting a Cloudflare worker project.
+
+[`index.js`](https://github.com/cloudflare/worker-template/blob/master/index.js) is the content of the Workers script.
+
+#### Wrangler
+
+To generate using [wrangler](https://github.com/cloudflare/wrangler)
+
+```
+wrangler generate projectname https://github.com/cloudflare/worker-template
+```
+
+#### Serverless
+
+To deploy using serverless add a [`serverless.yml`](https://serverless.com/framework/docs/providers/cloudflare/) file.
